@@ -1,0 +1,7 @@
+# Preserve document, photograph, and archive bytes in Git.
+*.pdf binary
+*.jpeg binary
+*.jpg binary
+*.zip binary
+*.md text eol=lf
+LICENSE text eol=lf
