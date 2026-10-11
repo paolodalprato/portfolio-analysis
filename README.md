@@ -95,7 +95,7 @@ Account skills are selected with `@` and require an account-level installation, 
 3. Upload `portfolio-analysis-skill.zip` intact and enable the skill.
 4. Start a conversation, attach the photographs, and ask for a guided portfolio reading.
 
-This is an account upload, separate from Codex's local directory installation. Organization settings may restrict custom skills. See [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) and [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) for current requirements.
+This is an account upload, separate from Claude's local directory installation. Organization settings may restrict custom skills. See [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) and [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) for current requirements.
 
 ### Verify, update, or remove an installation
 
