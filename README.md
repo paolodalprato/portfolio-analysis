@@ -67,14 +67,18 @@ If PDF creation is unavailable, the assistant provides the complete analysis in 
 
 The [installation ZIP](portfolio-analysis-skill.zip) contains one `portfolio-analysis` folder with `SKILL.md` and `LICENSE`. It excludes the example report and all photographs.
 
-### Codex desktop app and developer tools
+### OpenAI desktop app (Codex and ChatGPT)
+
+The following steps install Portfolio Analysis as a local skill on your computer. Local skills are selected with `$` in both the Codex and ChatGPT sections of the OpenAI desktop app.
 
 1. Download and extract `portfolio-analysis-skill.zip`.
-2. Place its `portfolio-analysis` folder in the user skill directory, `~/.agents/skills/`. On Windows this is normally `%USERPROFILE%\.agents\skills\`.
-3. Start a new conversation and select the installed skill. Codex's skill picker can be opened with `$`. Codex CLI (the command-line interface) and IDE (integrated development environment) extensions also support `/skills`.
+2. Place its `portfolio-analysis` folder in the user skill directory, `~/.agents/skills/`. On Windows this is normally `%USERPROFILE%\.agents\skills\`. Create the skills directory if it does not exist.
+3. Start a new conversation in either the Codex or ChatGPT section of the OpenAI desktop app. Type `$portfolio-analysis` and select Portfolio Analysis from the skill picker.
 4. Attach the photographs or an accessible portfolio PDF and request a portfolio reading.
 
-The installed file should be at `~/.agents/skills/portfolio-analysis/SKILL.md`. If the skill does not appear after installation, restart the host. A project can instead keep the folder under `.agents/skills/` for use in that project. See the [OpenAI skill documentation](https://learn.chatgpt.com/docs/build-skills) for current discovery rules.
+The installed file should be at `~/.agents/skills/portfolio-analysis/SKILL.md`. If the skill does not appear after installation, restart the application.
+
+Codex CLI (the command-line interface) and IDE (integrated development environment) extensions also support local skills, selected with `$` or `/skills`. A Codex project can instead keep the folder under `.agents/skills/` for use in that project. See the [OpenAI skill documentation](https://learn.chatgpt.com/docs/build-skills) for current discovery rules.
 
 Example request:
 
@@ -82,7 +86,7 @@ Example request:
 $portfolio-analysis Read this photographic collection with me and produce the final report in English. The images have no intentional sequence.
 ```
 
-ChatGPT uses `@` for its skill selector. Availability there depends on the supported installation route for that surface. This repository provides the standalone skill source and ZIP.
+Account skills are selected with `@` and require an account-level installation, such as through a plugin containing the skill. Copying the folder into `.agents/skills` installs the local skill only. See [OpenAI's skill distribution documentation](https://learn.chatgpt.com/docs/enterprise/skills) for these separate installation models.
 
 ### Claude
 
@@ -130,8 +134,11 @@ Suggested changes should explain the photographic or workflow problem they addre
 
 When changing the instructions, keep the repository's `SKILL.md` and installation ZIP consistent. Examples should identify their provenance and image rights.
 
-## License and author
+## License
 
 The skill instructions and text documentation are released under the [MIT license](LICENSE). All photographs, including those embedded in the example PDF, are copyright Paolo Dalprato and are excluded from MIT. Reusing the photographs requires separate permission from Paolo Dalprato.
 
-Created by Paolo Dalprato.
+## Authors
+
+- Author: Paolo Dalprato.
+- Co-author: GPT-6.1 Sol (OpenAI), for the development of the analytical workflow, instructions, and distribution package in collaboration with Paolo Dalprato.
