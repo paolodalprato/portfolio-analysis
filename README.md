@@ -65,7 +65,7 @@ If PDF creation is unavailable, the assistant provides the complete analysis in 
 
 ## Installation
 
-The [installation ZIP](portfolio-analysis-skill.zip) contains one `portfolio-analysis` folder with `SKILL.md` and `LICENSE`. It excludes the example report and all photographs.
+The [installation ZIP](https://github.com/paolodalprato/portfolio-analysis/archive/refs/heads/main.zip) contains one `portfolio-analysis` folder with `SKILL.md` and `LICENSE`. It excludes the example report and all photographs.
 
 ### OpenAI desktop app (Codex and ChatGPT)
 
